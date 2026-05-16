@@ -18,7 +18,7 @@ export default function GlassCard({
       animate="visible"
       transition={{ delay }}
       whileHover={hover ? { y: -4, borderColor: 'rgba(167, 139, 250, 0.42)' } : undefined}
-      className={`rounded-lg border border-slate-200/80 bg-white/85 shadow-sm backdrop-blur-xl transition dark:border-white/10 dark:bg-white/[0.075] dark:shadow-panel ${className}`}
+      className={`rounded-lg border border-slate-200/80 bg-white/85 shadow-sm backdrop-blur-xl transition-all duration-200 dark:border-white/10 dark:bg-white/[0.075] dark:shadow-panel ${className}`}
       {...props}
     >
       {children}
